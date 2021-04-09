@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Rider/IntelliJ cache/options directory
+.idea/
+
+# Mac OS X Directory custom attributes 
+.DS_Store
