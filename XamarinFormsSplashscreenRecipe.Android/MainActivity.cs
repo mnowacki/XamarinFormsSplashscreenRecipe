@@ -1,13 +1,10 @@
-﻿using System;
-
-using Android.App;
-using Android.Content.PM;
+﻿using Android.App;
 using Android.Runtime;
 using Android.OS;
 
 namespace XamarinFormsSplashscreenRecipe.Droid
 {
-    [Activity(Label = "XamarinFormsSplashscreenRecipe", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "XamarinFormsSplashscreenRecipe", Theme = "@style/MainTheme")]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
