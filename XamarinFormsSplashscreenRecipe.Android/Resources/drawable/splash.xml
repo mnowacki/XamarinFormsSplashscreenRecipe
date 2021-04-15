@@ -3,10 +3,21 @@
     <item>
         <color android:color="@color/launcher_background"/>
     </item>
-    <item>
-        <bitmap
-                android:src="@mipmap/launcher_foreground"
-                android:tileMode="disabled"
-                android:gravity="center"/>
-    </item>
+    
+    <!-- Bitmap  -->
+<!--    <item>-->
+<!--        <bitmap-->
+<!--                android:src="@mipmap/launcher_foreground"-->
+<!--                android:tileMode="disabled"-->
+<!--                android:gravity="center"/>-->
+<!--    </item>-->
+    
+    <!-- svg  -->
+    <!-- To prepare svg.xml, run Vector Asset and import file.svg and then you get file.xml. -->
+    <!--ToDo: Automatic resize to screen width-->
+    <item
+                android:gravity="center"
+                android:width="242dp"
+                android:height="101.5dp"
+                android:drawable="@drawable/svg"/>
 </layer-list>
