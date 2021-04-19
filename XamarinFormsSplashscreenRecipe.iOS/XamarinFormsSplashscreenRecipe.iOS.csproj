@@ -133,4 +133,7 @@
       <Name>XamarinFormsSplashscreenRecipe</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="XamarinLogo.png" />
+  </ItemGroup>
 </Project>
